@@ -3,7 +3,7 @@ import db from "../config/database.js";
 
 const { DataTypes } = Sequelize;
 
-const Notes = db.define('notes', {
+const Notes = db.define('note', {
     name: DataTypes.STRING,
     notes: DataTypes.STRING,
     mood: DataTypes.STRING,
